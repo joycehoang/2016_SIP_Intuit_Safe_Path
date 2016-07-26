@@ -2,4 +2,4 @@ LICENSE:
     
     MIT License
     
-**My pugs names are Alfonso and Darla.**
+**I have pugs named Alfonso and Darla.**
