@@ -2,4 +2,4 @@ LICENSE:
     
     MIT License
     
-**I have pugs named Alfonso and Darla.**
+**Hello, my name is Joyce, and I have pugs named Alfonso and Darla.**
