@@ -95,37 +95,14 @@
     <!-- Make sure all your bars are the first things in your <body> -->
     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
     <div id="map"></div>
-
-
-
+    
     <header class="bar bar-nav">
         <h1 class="title">Safe Path</h1>
         </header>
-
-     <nav class="bar bar-tab">
-  <a class="tab-item active" href="index.html" data-ignore="push">
-    Map
-  </a>
-  
-  <a class= "tab-item" href = "button.html" data-ignore="push">
-        SF Police Department Twitter
-    </a>
+        
    
-  <a class="tab-item" href="app_emergency.html" data-ignore="push">
-    Emergency
-    </a>
-    </nav>
-
-<br> 
-<br>
-<br>
-<br>
-<br>
-<br>
-  
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
- 
-
+    
  <div id="map"></div>
     <script>
       function initMap() {
@@ -137,10 +114,15 @@
       }
     </script>
     
-   
-    
-   
-     
+    <nav class="bar bar-tab">
+  <a class="tab-item active" href="#">
+    Map
+  </a>
+  <a class="tab-item" href="#">
+    Emergency
+  </a>
+</nav>
+
 <script>
  function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
