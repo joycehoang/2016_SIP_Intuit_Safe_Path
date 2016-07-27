@@ -122,14 +122,7 @@
         }
       }
 
-      function attachInstructionText(stepDisplay, marker, text, map) {
-        google.maps.event.addListener(marker, 'click', function() {
-          // Open an info window when the marker is clicked on, containing the text
-          // of the step.
-          stepDisplay.setContent(text);
-          stepDisplay.open(map, marker);
-        });
-      }
+      
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzXV_0WAbWcoFI_OqP7mLCKcoF90VflM&callback=initMap">
